@@ -9,7 +9,9 @@ namespace SqlConnect
             //Connection String
             //Where is your server. What database do you wanna query.
             //How are you authenticating
-            const string CONNECTION_STRING = "Server=(localdb)\\MSSQLLocalDB;Database=AdventureWorksLT2019;Integrated Security=true";
+            //const string CONNECTION_STRING = "Server=(localdb)\\MSSQLLocalDB;Database=AdventureWorksLT2019;Integrated Security=true";
+            //What if we wanted to login as a user
+            const string CONNECTION_STRING = "Server=(localdb)\\MSSQLLocalDB;Database=AdventureWorksLT2019;User Id=UserName;Password=P@ssword";
             //Create a SQLConnection object with the string
             SqlConnection connection = new SqlConnection(CONNECTION_STRING);
             //try to open a connection
@@ -20,6 +22,10 @@ namespace SqlConnect
                 Console.WriteLine("Connection to database successful");
                 //We make a SQLCommandObject and we try to run it
                 string sql = "SELECT * FROM SalesLT.Customer";
+                //You could also run stored procedures
+                //SqlCommand command = new SqlCommand("StoredProcedureName", connection);
+                //SqlCommand command = new SqlCommand("SalesLT.GetProductsByCategory", connection);
+                //command.CommandType = CommandType.StoreProcedure;
                 //SqlCommand takes a query and a connection
                 SqlCommand command = new SqlCommand(sql, connection);
                 //we try to execute the command and read the results
@@ -29,16 +35,15 @@ namespace SqlConnect
                     //The reader object contains all of the rows of the result of the query
                     while (reader.Read())
                     {
-                        for (int i = 0; i < reader.FieldCount; i++)
-                        {
-                            //reader .getvalue gets you the value at the first column
-                            //when i is 0, second when i is 1
-                            Console.Write(reader.GetValue(i) + "\t");
-                        }
-                        Console.WriteLine();
+                        //get the values by the column name
+                        string firstName = reader["FirstName"].ToString();
+                        string lastName = reader["LastName"].ToString();
+                        string emailAddress = reader["EmailAddress"].ToString();
+                        //print them out
+                        Console.Write($"First Name: {firstName} Last Name: {lastName} Email Address: {emailAddress}\n");
                     }
                 }
-                catch (Exception ex) 
+                catch (Exception ex)
                 {
                     Console.WriteLine($"Query Failed ${ex.Message}");
                 }
