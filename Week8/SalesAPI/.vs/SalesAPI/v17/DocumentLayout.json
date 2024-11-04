@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|c:\\users\\jemery\\source\\repos\\salesapi\\data\\mockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|solutionrelative:data\\mockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|c:\\users\\jemery\\source\\repos\\salesapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|c:\\users\\jemery\\source\\repos\\salesapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|c:\\users\\jemery\\source\\repos\\salesapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|c:\\users\\jemery\\source\\repos\\salesapi\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|c:\\users\\jemery\\source\\repos\\salesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|c:\\users\\jemery\\source\\repos\\salesapi\\salesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{669E1871-4D92-460B-9B27-7FB46D9A6189}|SalesAPI.csproj|solutionrelative:salesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Data\\MockRepository.cs",
+              "RelativeDocumentMoniker": "Data\\MockRepository.cs",
+              "ToolTip": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Data\\MockRepository.cs",
+              "RelativeToolTip": "Data\\MockRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:37:17.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:36:17.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Models\\OrderItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:35:49.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:35:32.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:35:12.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:33:15.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalesAPI",
+              "DocumentMoniker": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\SalesAPI.csproj",
+              "RelativeDocumentMoniker": "SalesAPI.csproj",
+              "ToolTip": "C:\\Users\\jemery\\source\\repos\\SalesAPI\\SalesAPI.csproj",
+              "RelativeToolTip": "SalesAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-04T18:30:22.906Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
