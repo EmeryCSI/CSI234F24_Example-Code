@@ -153,6 +153,9 @@ GO
 GRANT CONTROL ON SCHEMA::HR TO HRAdmin;
 -- This gives full rights including create, alter, delete objects within the HR schema
 GO
+--Give full query permission to HRAdmin
+GRANT SELECT, INSERT, UPDATE, DELETE ON SCHEMA::HR TO HRAdmin;
+GO
 
 
 
