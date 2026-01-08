@@ -2,7 +2,7 @@
 -- Week 1: Introduction to SQL Querying
 
 -- Make sure we're using the correct database
-USE AdventureWorksLT;
+USE NameOfYourSampleDB;
 GO
 
 -- Part 1: Basic SELECT Statements
