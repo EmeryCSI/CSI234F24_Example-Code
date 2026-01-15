@@ -1,7 +1,3 @@
--- Comprehensive SQL Tutorial: Functions, Stored Procedures, Indexing, and Schema
--- Database: AdventureWorksLT
--- SQL Server with T-SQL
-
 -- This tutorial covers four key concepts in SQL:
 -- 1. Functions
 -- 2. Stored Procedures
