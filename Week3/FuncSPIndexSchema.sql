@@ -1,4 +1,4 @@
--- This tutorial covers four key concepts in SQL:
+-- Advanced Topics in SQL
 -- 1. Functions
 -- 2. Stored Procedures
 -- 3. Indexing
