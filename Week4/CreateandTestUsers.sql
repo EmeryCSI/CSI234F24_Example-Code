@@ -19,7 +19,7 @@ GO
 EXECUTE AS USER = 'LibraryAdmin';
 SELECT * FROM Library.Author;
 REVERT;
-
+GO
 --Make a stored prodecure for SP user
 CREATE OR ALTER PROCEDURE Library.GetBookGenre 
 	@BookId int
