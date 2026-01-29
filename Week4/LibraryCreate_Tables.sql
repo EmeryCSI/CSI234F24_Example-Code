@@ -41,13 +41,14 @@ CREATE TABLE Library.Author (
 );
 
 --Create BookAuthor (This is a bridge table between Book and Author)
-Create Table Library.BookAuthor(
+CREATE TABLE Library.BookAuthor(
 	Id int IDENTITY(1,1) PRIMARY KEY,
 	BookId int,
 	AuthorId int,
 	--Constraints
 	CONSTRAINT FK_BookAuthor_Book FOREIGN KEY (BookId) REFERENCES Library.Book(Id),
 	CONSTRAINT FK_BookAuthor_Author FOREIGN KEY (AuthorId) REFERENCES Library.Author(Id),
+	CONSTRAINT UQ_BookAuthor_BookId_AuthorId UNIQUE (BookId, AuthorId)
 );
 -- Create Member
 -- Member has one to many with Fine and Borrow
